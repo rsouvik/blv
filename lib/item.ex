@@ -1,4 +1,4 @@
-defmodule GildedRose.Item do
+defmodule Item do
   defstruct name: nil, sell_in: nil, quality: nil
 
   def new(name, sell_in, quality) do
