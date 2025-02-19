@@ -1,6 +1,7 @@
 defmodule Helper do
-  @moduledoc "helper functions
-  "
+  @moduledoc """
+  helper functions
+  """
   @spec update_item(%Item{}, integer()) :: %Item{}
   def update_item(%Item{quality: quality, sell_in: sell_in} = item, quality_step) do
     %{item | sell_in: sell_in - 1, quality: quality - quality_step}

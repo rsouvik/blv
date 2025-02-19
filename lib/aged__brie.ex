@@ -1,8 +1,7 @@
 defmodule Aged_Brie do
-  @moduledoc ""
+  @moduledoc """
   implements Aged_Brie
-  ""
-
+"""
   import Helper, only: [update_item: 2]
 
   @behaviour Base_Common
